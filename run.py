@@ -1,3 +1,6 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+number = 5 
+print('Try to guess the number (between 1 and 14) in three guesses!')
+
+guess1 = int(input('\Enter your first guess: '))
+guess2 = int(input('\Enter your second guess: '))
+guess3 = int(input('\Enter your thrid guess: '))
