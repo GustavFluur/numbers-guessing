@@ -1,7 +1,8 @@
 import sys
+import random
 
-number = 10
-print('Try to guess the number (between 0 and 20) on three guesses!')
+number = random.randint(1, 100)
+print('Try to guess the number (between 1 and 100) on three guesses!')
 
 """Here the user is typing in the number and to succeed in this game, you must choose the right one. How you are doing that is by selecting a number between 0 - 20."""
 
