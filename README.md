@@ -3,7 +3,10 @@ Number guessing is being run in a Python terminal game, which runs in the code i
 
 The user has five tries by figure it the right number and there is no time-limit so you'll able to take your time. 
 
+[Here is the live version of the project to interact with, and will provide a detail understanding on how the system or the game operates for the user.](https://numbers-guessing.herokuapp.com/)
+
 ![Responsive image](/assets/images/Number-guessing-image1.png)
+
 
 # Features
 
