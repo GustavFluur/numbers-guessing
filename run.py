@@ -3,6 +3,9 @@ import random
 """
 This is a simple game for user to play with, 
 where structure is based upon on one variable with a few if statements.
+-It's a simple code
+-Easy to use
+-No difficulties to advance it further if you wishes.
 """
 number = random.randint(1, 12)
 print('Try to guess the number (between 0 and 12) on five guesses!')
