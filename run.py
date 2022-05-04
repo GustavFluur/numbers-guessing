@@ -43,7 +43,7 @@ elif try4 > number:
 else: 
     print('Almost there, the number too low!')
 
-try5 = int(input('Enter your fourth guess: '))
+try5 = int(input('Enter your fifth guess: '))
 
 if try5 == number:
     print('You made it eventually, great work!')
