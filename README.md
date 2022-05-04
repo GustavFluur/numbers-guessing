@@ -7,6 +7,8 @@ Once the user is interacting with the game for the first time, the introduction 
 
 ![Responsive image](/assets/images/Number-guessing-image1.png)
 
+# How to play
+
 
 # Features
 
@@ -65,16 +67,14 @@ In the JS validator there were 13 warnings found within the JS file and unused f
 ### Solved Bugs
 
 
-#The site I took inspiration from: 
-https://www.mathsisfun.com/games/guess_number.html
-
   
 # Credits 
 ## Content 
 
+- Code Institute for deployment terminal
+- Wikipedia for the details of Number Guessing game & [Influence was taken from website: Math is fun.](https://www.mathsisfun.com/games/guess_number.html)
+
 Sites that gave me the support for the website were: 
-[Math is fun - Guess My Number](https://www.mathsisfun.com/games/guess_number.html)
 [freeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/learn/),
 [CodeCademy - Course: Learn Python 2](https://www.codecademy.com/), [12 Beginner Python Projects - Coding Course](https://www.youtube.com/watch?v=8ext9G7xspg) and [StackOverFlow](https://stackoverflow.com/questions/67330299/last-try-for-guesses-and-try-except-in-guess-the-number-game)
 
-# Media
