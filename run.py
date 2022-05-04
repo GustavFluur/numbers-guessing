@@ -7,8 +7,8 @@ where structure is based upon on one variable with a few if statements.
 -Easy to use
 -No difficulties to advance it further if you wishes.
 """
-number = random.randint(1, 12)
-print('Try to guess the number (between 0 and 12) on five guesses!')
+number = random.randint(1, 100)
+print('Try to guess the number (between 0 and 100) on five guesses!')
 
 try1 = int(input('Enter your first guess: '))
 if try1 == number:
