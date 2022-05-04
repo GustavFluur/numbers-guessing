@@ -58,3 +58,6 @@ elif try5 > number:
     print('Your guess is too high, please try again!')
 else: 
     print('Almost there, the number too low!')
+
+print('No more chances, you lost the game....')
+print('Shuting down..')
