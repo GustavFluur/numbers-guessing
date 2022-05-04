@@ -1,9 +1,9 @@
 # Number Guessing 
 Number guessing is being run in a Python terminal game, which runs in the code institute mock terminal on Heroku.
 
-The user has five tries by figure it the right number and there is no time-limit so you'll able to take your time. 
+Once the user is interacting with the game for the first time, the introduction of it is clear and concise. Where you must choose a number between a span of the lowest and highest, plus you only have five chances to finish it.  
 
-[Here is the live version of the project to interact with, and will provide a detail understanding on how the system or the game operates for the user.](https://numbers-guessing.herokuapp.com/)
+[Here is the live version of the project to interact with, and will provide a detail understanding on how the game operates.](https://numbers-guessing.herokuapp.com/)
 
 ![Responsive image](/assets/images/Number-guessing-image1.png)
 
