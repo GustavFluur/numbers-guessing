@@ -1,6 +1,9 @@
 import sys
 import random
-
+"""
+This is a simple game for user to play with, 
+where structure is based upon on one variable with a few if statements.
+"""
 number = random.randint(1, 12)
 print('Try to guess the number (between 0 and 12) on five guesses!')
 
