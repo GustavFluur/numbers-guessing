@@ -6,7 +6,7 @@ print('Try to guess the number (between 0 and 12) on four guesses!')
 
 try1 = int(input('\Enter your first guess: '))
 if try1 == number:
-    print('On the first try you scored the right one, what is your secret!?'.upper())
+    print('Wow, you scored on the first try! How did you know!?'.upper())
     sys.exit()
 elif try1 > number:
     print('Your guess is too high, please try again!')
