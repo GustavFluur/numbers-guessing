@@ -3,14 +3,14 @@ Number guessing is being run in a Python terminal game, which runs in the code i
 
 The user has five tries by figure it the right number and there is no time-limit so you'll able to take your time. 
 
-![Responsive image](/assets/images/README.MD.ONE.png)
+![Responsive image](/assets/images/Number-guessing-image1.png)
 
-#Features
+# Features
 
 ## Existing Features
 
 ## Header 
-![Header](/assets/images/header.png)
+![Header](/assets/images/)
 
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][t
 
