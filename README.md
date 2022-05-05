@@ -26,15 +26,6 @@ Once the user is interacting with the game for the first time, the introduction 
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
 
-## The Game Option
-![Responsive image](/assets/images/Scissor-zom.png)
-
-## Gaming Result
-![Responsive image](/assets/images/gaming-results.png)
-
-## Favicon 
-![Favicon](/assets/images/favicon.png)
-
 # Testing 
 - Tested the webpage on these browsers: Brave Browser, Chrome, Firefox and Safari. 
 - I confirmed that the game results are always correct.
@@ -48,27 +39,33 @@ Once the user is interacting with the game for the first time, the introduction 
 **Bästa Metoder: Best Practices**
 ![lighthouse](/assets/images/lighthouse.new.png)
 
-# Features left to implement
-
-# Validator Testing
-## HTML
-Two errors were found within HTML file but no need to change them since it dosen't stop the overall game to function.
-
-## CSS
-Two error were found, but was later fixed. 
-
-## JavaScript
-
-In the JS validator there were 13 warnings found within the JS file and unused function, that was being removed from the file. The 13 warnings states because it won't hurt the overall function of Rock, Scissor and Paper game. 
 
 
 # Bugs 
 
 ### Solved Bugs
 
+* No issues when it came to the coding and structure building of the python file, yet the only issue I encountered was some typing issues along with the development of the file. First, it’s hard to know what you want in the beginning and secondly, I got dyslexia, so missing out on some words or sentences is part of the process.  
+
+# Remaining Bugs
+
+ * No bugs to fix..       
+
+
+
 # Validator Testing 
-    - PEP8
-        - 
+
+
+* PEP8
+
+    * No errors were returned from PEP8online.com
+
+
+* Exception:
+
+    *  These messages won't stop the code to operate nor lower the the sense of entertainment in the game for the user.
+
+![Results from PEP8online.com](/assets/images/PEP8.png)
 
 # Deployment
 
@@ -109,7 +106,6 @@ command:    git push heroku main
 
 
 # Credits 
-## Content 
 
 - Code Institute for deployment terminal
 - Wikipedia for the details of Number Guessing game & [Influence was taken from website: Math is fun.](https://www.mathsisfun.com/games/guess_number.html)
