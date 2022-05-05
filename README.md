@@ -9,23 +9,69 @@ Once the user is interacting with the game for the first time, the introduction 
 
 # How to play
 
-Number guessing 
+Number guessing is game where the players simultaneously select an integer between between two numbers. In that span you must choose one per try, hence to figure out what number the computer has selected or hiding from the user. According to [wikipedia](https://en.wikipedia.org/wiki/Guess_2/3_of_the_average): Alain Ledoux is the founding father of the guess 
+of the average-game. In 1981, Ledoux used this game as a tie breaker in his French magazine Jeux et Stratégie. He asked about 4,000 readers, who reached the same number of points in previous puzzles, to state an integer between 1 and 1,000,000,000. The winner was the one who guessed closest to of the average guess.
+
+In this game you won't reccieve a prize but you have 5 chances to win and if loose you'll have to restart the game. Once you have it started it says in the mock terminal:
+
+        Try to guess the number (between 0 and 100) on five guesses!
+        Enter your first guess:
+
+Depending how you guessed it the first time you'll receive an answer that goes align with the computer's secret number. If it's either high or low - until you hit it right. 
+
+        Your guess is too high, please try again!
+        Enter your second guess: 
+
+This is an example on how it indicates you won in the game, and no matter what result you get eventually the game is always shots down:
+
+        Enter your second guess: 25
+        GREAT, YOU MADE IT ON THE SECOND TRY!
+        Shuting down..
+
 
 
 # Features
 
 ## Existing Features
 
-## Header 
-![Header](/assets/images/)
+Ex 1.   
+As a summary from the previous section on how to play: you just follow the instructions from the terminal on what it says in game. Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you done something great - won over the computer e.g. on the second try. Since it's quite challenging to score it right in the span between  0 - 100. 
 
-- [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][t
+        Try to guess the number (between 0 and 100) on five guesses!
+        Enter your first guess: 50
+        Your guess is too high, please try again!
+        Enter your second guess: 25
+        GREAT, YOU MADE IT ON THE SECOND TRY!
+        Shuting down..
+
+Ex 2
+The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
+
+        Try to guess the number (between 0 and 100) on five guesses!
+        Enter your first guess: 70
+        Your guess is too high, please try again!
+        Enter your second guess: 30
+        Almost there, the number too low!
+        Enter your third guess: 45
+        Almost there, the number too low!
+        Enter your fourth guess: 40
+        Almost there, the number too low!
+        Enter your fifth guess: 50
+        Almost there, the number too low!
+        No more chances, you lost the game....
+        Shuting down..
+
+# Future Feature
+
+* Create a score system to let the user know on how it's going and orientate itself over the process. 
+* Add new content into the game, where you can change the level of difficulty. Give a sense of freedom and challenge.
 
 # Data Model
 
-- [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
-- [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
-- [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
+I decided to make this game as easy as possible due to lack of time and therefore the structure is easy built for the user and developers to take advantage from. Thus adding important imports to make it functional and a few inputs as well as prints. Nothing harder than that but as long as it's required and solid for the operating system to be as best it can be for the user. 
+
+The vital method is the sys.exit() is to make the whole code structure to flow itself and not lose it's interest for user. But also stopping the loop and it can break away. The combination of prints makes it more fun for the user and in the inputs is vital to create an interaction as well. 
+
 
 # Testing 
 
