@@ -5,7 +5,7 @@ This is a simple game for user to play with,
 where structure is based upon on one variable with a few if statements.
 -It's a simple code
 -Easy to use
--No difficulties to advance it further if you wishes.
+-No difficulties to enhance it further.
 """
 number = random.randint(1, 100)
 print('Try to guess the number (between 0 and 100) on five guesses!')
@@ -66,3 +66,9 @@ else:
 
 print('No more chances, you lost the game....')
 print('Shuting down..')
+
+"""
+For the future it require a sort of score system, 
+where the user is getting informed on how it's going, 
+and create a sort of restart system, to make the game independent. 
+"""
