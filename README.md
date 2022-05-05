@@ -9,6 +9,8 @@ Once the user is interacting with the game for the first time, the introduction 
 
 # How to play
 
+Number guessing 
+
 
 # Features
 
@@ -19,26 +21,18 @@ Once the user is interacting with the game for the first time, the introduction 
 
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][t
 
-## Greeting & Introduction
-![Greeting](/assets/images/intro.png)
+# Data Model
 
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
 - [text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here][text here]
 
 # Testing 
-- Tested the webpage on these browsers: Brave Browser, Chrome, Firefox and Safari. 
-- I confirmed that the game results are always correct.
-- I confirmed that header, instructions, item selection and results are readable and easy to understand. 
-- I confirmed that the colors and fonts chosen are easy to read and acessible by running the lighthouse: 
 
-**To save some time and easy to conduct the lighthouse I was only able to come up with lighthouse figures in Swedish, therefore you'll have the English Translation here:**
-
-**Prestanda: Performance**
-**Tillgänglighet: Accessibility**
-**Bästa Metoder: Best Practices**
-![lighthouse](/assets/images/lighthouse.new.png)
-
+I have manually tested this project by doing the following:
+* Passed the code through a PEP8 linter and confirmed there are no problems
+* Given invaild inputs: strings when numbers are expected, out of bounds inputs, same inputs twice.   
+* Tested in my local terminal and the Code Institute Heroku terminal. 
 
 
 # Bugs 
