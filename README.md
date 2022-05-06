@@ -34,8 +34,8 @@ This is an example on how it indicates you won in the game, and no matter what r
 
 ## Existing Features
 
-Ex 1.   
-As a summary from the previous section on how to play: you just follow the instructions from the terminal on what it says in game. Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you done something great - won over the computer e.g. on the second try. Since it's quite challenging to score it right in the span between  0 - 100. 
+# Ex 1.   
+## As a summary from the previous section on how to play: you just follow the instructions from the terminal on what it says in game. Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you done something great - won over the computer e.g. on the second try. Since it's quite challenging to score it right in the span between  0 - 100. 
 
         Try to guess the number (between 0 and 100) on five guesses!
         Enter your first guess: 50
@@ -44,8 +44,12 @@ As a summary from the previous section on how to play: you just follow the instr
         GREAT, YOU MADE IT ON THE SECOND TRY!
         Shuting down..
 
-Ex 2
-The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
+# Ex2
+## This is example shows it looks like when you are on the edge of loosing the game, that you got a score after the fourth try:
+![4 tries - 1 score](/assets/images/4%20shots%20-%201%20score.png)
+
+# Ex 3
+## The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
 
 ![Failure after 5 chances](/assets/images/5%20tries%20-%20no%20win.png)
 
