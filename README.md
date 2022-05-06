@@ -45,8 +45,9 @@ This is an example on how it indicates you won in the game, and no matter what r
         Shuting down..
 
 ## Ex2
-### This is example shows it looks like when you are on the edge of loosing the game, that you got a score after the fourth try:
+### This is example shows it looks like when you are on the edge of loosing the game, that you got a score after the fourth and fifth try:
 ![4 tries - 1 score](/assets/images/4%20shots%20-%201%20score.png)
+![5 tries - 1 score](/assets/images/Score%20on%20the%20last%20try.png)
 
 ## Ex 3
 ### The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
