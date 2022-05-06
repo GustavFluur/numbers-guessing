@@ -1,7 +1,7 @@
 # Number Guessing 
 Number guessing is being run in a Python terminal game, which runs in the code institute mock terminal on Heroku.
 
-Once the user is interacting with the game for the first time, the introduction of it is clear and concise. Where you must choose a number between a span of the lowest and highest, plus you only have five chances to finish it.  
+Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest - and to highest, plus you only have five chances to finish the game. 
 
 [Here is the live version of the project to interact with. Here it will provide you a detail understanding on how the game operates. Enjoy!](https://numbers-guessing.herokuapp.com/)
 
@@ -12,7 +12,7 @@ Once the user is interacting with the game for the first time, the introduction 
 Number guessing is game where the players simultaneously select an integer between between two numbers. In that span you must choose one per try, hence to figure out what number the computer has selected or hiding from the user. According to [wikipedia](https://en.wikipedia.org/wiki/Guess_2/3_of_the_average): Alain Ledoux is the founding father of the guess 
 of the average-game. In 1981, Ledoux used this game as a tie breaker in his French magazine Jeux et Stratégie. He asked about 4,000 readers, who reached the same number of points in previous puzzles, to state an integer between 1 and 1,000,000,000. The winner was the one who guessed closest to of the average guess.
 
-In this game you won't reccieve a prize but you have 5 chances to win and if loose you'll have to restart the game. Once you have it started it says in the mock terminal:
+In this game you won't reccieve a prize but you have 5 chances to win and if loose you'll have to restart the game. Once you have it started Number Guessing it says in the mock terminal:
 
         Try to guess the number (between 0 and 100) on five guesses!
         Enter your first guess:
