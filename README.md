@@ -44,6 +44,8 @@ This is an example on how it indicates you won in the game, and no matter what r
         GREAT, YOU MADE IT ON THE SECOND TRY!
         Shuting down..
 
+### *** Disclaimer: I forgot to add the first image of the winning example, and other ones were created right after, this will be added in the short future, thank you for your understanding***
+
 ## Ex2
 ### This is example shows it looks like when you are on the edge of loosing the game, that you got a score after the fourth and fifth try:
 ![4 tries - 1 score](/assets/images/4%20shots%20-%201%20score.png)
@@ -58,6 +60,7 @@ This is an example on how it indicates you won in the game, and no matter what r
 
 * Create a score system to let the user know on how it's going and orientate itself over the process. 
 * Add new content into the game, where you can change the level of difficulty. Give a sense of freedom and challenge.
+* Reveal of the correct number, what the computer was hiding.
 
 # Data Model
 
