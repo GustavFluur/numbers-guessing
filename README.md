@@ -3,7 +3,7 @@ Number guessing is being run in a Python terminal game, which runs in the code i
 
 Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest - and to highest, plus you only have five chances to finish the game. 
 
-[Here is the live version of the project to interact with. Here it will provide you a detail understanding on how the game operates. Enjoy!](https://numbers-guessing.herokuapp.com/)
+[Here is the live version of the project to interact with - it will provide you a detail understanding on how the game operates. Enjoy!](https://numbers-guessing.herokuapp.com/)
 
 ![Responsive image](/assets/images/Number-guessing-image1.png)
 
@@ -47,19 +47,7 @@ As a summary from the previous section on how to play: you just follow the instr
 Ex 2
 The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
 
-        Try to guess the number (between 0 and 100) on five guesses!
-        Enter your first guess: 70
-        Your guess is too high, please try again!
-        Enter your second guess: 30
-        Almost there, the number too low!
-        Enter your third guess: 45
-        Almost there, the number too low!
-        Enter your fourth guess: 40
-        Almost there, the number too low!
-        Enter your fifth guess: 50
-        Almost there, the number too low!
-        No more chances, you lost the game....
-        Shuting down..
+![Failure after 5 chances](/assets/images/5%20tries%20-%20no%20win.png)
 
 # Future Feature
 
