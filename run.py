@@ -27,7 +27,7 @@ def guess(i, correct_number):
 number = random.randint(1, 100)
 print('Try to guess the number (between 0 and 100) on five guesses!')
 
-for i in [1, 2, 3,4, 5]:
+for i in [1, 2, 3, 4, 5]:
     guess(i, number)
 
 print('No more chances, you lost the game....')
