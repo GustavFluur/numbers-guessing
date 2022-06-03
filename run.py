@@ -14,6 +14,7 @@ def guess(i, correct_number):
     except ValueError:
         print ('Please enter a number!')
         guess(i, correct_number)
+        sys.exit()
 
     if try_number == correct_number:
         print('Wow, you scored on try' + str(i) + '! How did you know!?'.upper())
