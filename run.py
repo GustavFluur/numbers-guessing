@@ -12,10 +12,12 @@ For the future it require a sort of score system,
 where the user is getting informed on how it's going,
 and create a sort of restart system, to make the game independent.
 """
+MAX_TRIES = [1, 2, 3, 4, 5]
 
 def guess(i, correct_number):
     try:
-        try_number = int(input('Enter guess ' + str(i) + ': '))
+        try_number = int(input('Enter guess ' 
+        + str(i) + ': '))
     except ValueError:
         print ('Please enter a number!')
         guess(i, correct_number)
@@ -30,12 +32,23 @@ def guess(i, correct_number):
     else:
         print('Almost there, the number too low!')
 
-number = random.randint(1, 100)
-print('Try to guess the number (between 0 and 100) on five guesses!')
+def main() 
+  while True  
+	number = random.randint(1, 100)
+	print('Try to guess the number (between 0 and 100) on five guesses!')
 
-for i in [1, 2, 3, 4, 5]:
-    guess(i, number)
+	for i in MAX_TRIES:
+  	  guess(i, number)
 
-print('No more chances, you lost the game....')
-print('Shuting down..')
+	print('No more chances, you lost the game....')
+	print('Wanna try again?')
+	user_answer = input('Y/N')
+	if user_answer === 'Y'
+         continue # This continues to the next cycle of your loop
+    elif user_answer === 'N'
+        print('Goodbye!')
+        break # This takes you out of the 'while' part
+
+main()
+sys.exit('Shutting down')
 
