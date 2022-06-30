@@ -41,6 +41,7 @@ def main():
         guess(i, number)
     print('No more chances, you lost the game....')
     print('Wanna try again?')
+    print('please press either y - yes or n - no')
     user_answer = input('y/n' + "" + ":")
 
     if user_answer == 'y':
