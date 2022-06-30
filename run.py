@@ -32,8 +32,8 @@ def guess(i, correct_number):
     else:
         print('Almost there, the number too low!')
 
-def main() 
-  while True  
+def main(): 
+  while True:  
 	number = random.randint(1, 100)
 	print('Try to guess the number (between 0 and 100) on five guesses!')
 
@@ -43,9 +43,9 @@ def main()
 	print('No more chances, you lost the game....')
 	print('Wanna try again?')
 	user_answer = input('Y/N')
-	if user_answer === 'Y'
-         continue # This continues to the next cycle of your loop
-    elif user_answer === 'N'
+	if user_answer === 'Y':
+        continue # This continues to the next cycle of your loop
+    elif user_answer === 'N':
         print('Goodbye!')
         break # This takes you out of the 'while' part
 
