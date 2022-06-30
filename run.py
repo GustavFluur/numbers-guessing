@@ -34,21 +34,20 @@ def guess(i, correct_number):
 
 def main(): 
   while True:  
-	number = random.randint(1, 100)
-	print('Try to guess the number (between 0 and 100) on five guesses!')
-
-	for i in MAX_TRIES:
-  	  guess(i, number)
-
-	print('No more chances, you lost the game....')
-	print('Wanna try again?')
-	user_answer = input('Y/N')
-	if user_answer === 'Y':
-        continue # This continues to the next cycle of your loop
-    elif user_answer === 'N':
-        print('Goodbye!')
-        break # This takes you out of the 'while' part
+    	number = random.randint(1, 100)
+    	print('Try to guess the number (between 0 and 100) on five guesses!')
+        
+        for i in MAX_TRIES:
+            guess(i, number)
+            print('No more chances, you lost the game....')
+            print('Wanna try again?')
+            
+            user_answer = input('Y/N')
+            if user_answer === 'Y':
+                continue # This continues to the next cycle of your loop
+            elif user_answer === 'N':
+                print('Goodbye!')
+                break # This takes you out of the 'while' part
 
 main()
 sys.exit('Shutting down')
-
