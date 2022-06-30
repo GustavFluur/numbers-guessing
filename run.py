@@ -43,12 +43,12 @@ def main():
     print('Wanna try again?')
     user_answer = input('Y/N')
 
-    if user_answer === 'Y'
-    continue # This continues to the next cycle of your loop
+    if user_answer == 'Y':
+        continue # This continues to the next cycle of your loop
     
     
-    elif user_answer === 'N'
-    print('Goodbye!')
+    elif user_answer == 'N':
+        print('Goodbye!')
     break # This takes you out of the 'while' part
 
 main()
