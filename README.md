@@ -5,7 +5,7 @@ Once the user is interacting with the game for the first time, they will find th
 
 [Here is the live version of the project to interact with - it will provide you a detail understanding on how the game operates. Enjoy!](https://numbers-guessing.herokuapp.com/)
 
-![Responsive image](/assets/images/Number-guessing-image1.png)
+![Responsive image](/assets/images/Responsitive%20image.png)
 
 # How to play
 
@@ -15,18 +15,23 @@ of the average-game. In 1981, Ledoux used this game as a tie breaker in his Fren
 In this game you won't reccieve a prize but you have 5 chances to win and if loose you'll have to restart the game. Once you have it started Number Guessing it says in the mock terminal:
 
         Try to guess the number (between 0 and 100) on five guesses!
-        Enter your first guess:
+        Enter guess 1: 
 
 Depending how you guessed it the first time you'll receive an answer that goes align with the computer's secret number. If it's either high or low - until you hit it right. 
 
         Your guess is too high, please try again!
-        Enter your second guess: 
+        Enter guess 3:
 
 This is an example on how it indicates you won in the game, and no matter what result you get eventually the game is always shots down:
 
-        Enter your second guess: 25
+        Enter your guess 5: 25
         GREAT, YOU MADE IT ON THE SECOND TRY!
         Shuting down..
+
+## Updated gaming features:
+#### Since the last submission was reccieved some critics it has been added some new content and features into the game for making it more appealing for the user's experience.  
+
+
 
 
 
