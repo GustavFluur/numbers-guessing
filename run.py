@@ -41,13 +41,13 @@ def main():
         guess(i, number)
     print('No more chances, you lost the game....')
     print('Wanna try again?')
-    user_answer = input('Y/N')
+    user_answer = input('y/n' + "" + ":")
 
-    if user_answer == 'Y':
+    if user_answer == 'y':
         continue # This continues to the next cycle of your loop
     
     
-    elif user_answer == 'N':
+    elif user_answer == 'n':
         print('Goodbye!')
     break # This takes you out of the 'while' part
 
