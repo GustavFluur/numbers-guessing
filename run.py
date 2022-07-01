@@ -39,7 +39,7 @@ def main():
         
     for i in MAX_TRIES:
         guess(i, number)
-    print('No more chances, you lost the game....')
+    print('You lost the game....')
     print('Wanna try again?')
     print('please press either y - yes or n - no')
     user_answer = input('y/n' + "" + ":")
