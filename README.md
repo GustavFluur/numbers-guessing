@@ -29,7 +29,9 @@ This is an example on how it indicates you won in the game, and no matter what r
         Shuting down..
 
 ## Updated gaming features:
-#### Since the last submission was reccieved some critics it has been added some new content and features into the game for making it more appealing for the user's experience.  
+#### Since the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience.
+
+
 
 
 
