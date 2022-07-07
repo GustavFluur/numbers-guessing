@@ -40,7 +40,6 @@ def guess(i, correct_number):
         print(
             'Wow, you scored on try ' + str(i) + '! How did you know!?'.upper()
         )
-        print('Shuting down..')
         end_game()
     elif try_number > correct_number:
         print('Your guess is too high, please try again!')
