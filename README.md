@@ -7,26 +7,36 @@ Once the user is interacting with the game for the first time, they will find th
 
 ![Responsive image](/assets/images/Responsitive%20image.png)
 
-# How to play
+# Background 
 
 Number guessing is game where the players simultaneously select an integer between between two numbers. In that span you must choose one per try, hence to figure out what number the computer has selected or hiding from the user. According to [wikipedia](https://en.wikipedia.org/wiki/Guess_2/3_of_the_average): Alain Ledoux is the founding father of the guess 
 of the average-game. In 1981, Ledoux used this game as a tie breaker in his French magazine Jeux et Stratégie. He asked about 4,000 readers, who reached the same number of points in previous puzzles, to state an integer between 1 and 1,000,000,000. The winner was the one who guessed closest to of the average guess.
 
-In this game you won't reccieve a prize but you have 5 chances to win and if loose you'll have to restart the game. Once you have it started Number Guessing it says in the mock terminal:
+# How to play
+
+In this game you have 5 chances to win and likewise no matter what result - you'll have options to either continue or to quit. The reason behind that feature is to create a sense of freedom for the user and preventing it for a sudden halt of its entertainment.  
+
+Once you starting Number Guessing it says in the mock terminal:
+
+       Try to guess the number (between 0 and 100) on five guesses!
+       Enter guess 1: 
+
+Depending how you guessed it the first time you'll receive an answer that goes align with the computer's secret number. If it's either high or low - until you hit it right. This is an example on how it indicates you won in the game, and no matter what result you get eventually the game is always shots down:
 
         Try to guess the number (between 0 and 100) on five guesses!
-        Enter guess 1: 
-
-Depending how you guessed it the first time you'll receive an answer that goes align with the computer's secret number. If it's either high or low - until you hit it right. 
-
+        Enter guess 1: 80
         Your guess is too high, please try again!
-        Enter guess 3:
-
-This is an example on how it indicates you won in the game, and no matter what result you get eventually the game is always shots down:
-
-        Enter your guess 5: 25
-        GREAT, YOU MADE IT ON THE SECOND TRY!
-        Shuting down..
+        Enter guess 2: 20
+        Almost there, the number too low!
+        Enter guess 3: 30
+        Almost there, the number too low!
+        Enter guess 4: 50
+        Almost there, the number too low!
+        Enter guess 5: 60
+        Wow, you scored on try 5! HOW DID YOU KNOW!?
+        Wanna try again?
+        please press either y - yes or n - no
+        y/n:
 
 ## Updated gaming features:
 #### Since the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience.
