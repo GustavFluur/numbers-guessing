@@ -19,12 +19,12 @@ In this game you have 5 chances to win and likewise no matter what result - you'
 ## Updated gaming features:
 #### Since the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience. 
 
-Once you starting Number Guessing it says in the mock terminal:
+Once you starting the Number Guessing game it still says in the mock terminal:
 
        Try to guess the number (between 0 and 100) on five guesses!
         Enter guess 1: 
 
-Depending how you guessed it the first time you'll receive an answer that goes align with the computer's secret number. If it's either high or low - until you hit it right. 
+What it does the player will be given instructions and a purpose for the user to be encouraged on how to play the game. As it was in the previous version - it depends on what numbers of your choice are being typed into the terminal thus you’ll receive a message: If your number is either high or low – the system is therefore signaling if you are on the right track, but keeping the computer’s secret number disclosed.  
 
         Your guess is too high, please try again!
         Enter guess 3:
