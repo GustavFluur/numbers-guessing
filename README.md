@@ -3,7 +3,7 @@ Number guessing is being run in a Python terminal game, which runs in the code i
 
 Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest - and to highest, plus you only have five chances to finish the game. 
 
-# *Disclaimer: This Readme file has been updated due some criticism regarding the code content and missing elements that was required for meeting the expectations for Code Consitute's grade criteria. #### Since the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience.
+###### *Disclaimer: This Readme file has been updated due the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience.
 
 [Here is the live version of the project to interact with - it will provide you a detail understanding on how the game operates. Enjoy!](https://numbers-guessing.herokuapp.com/)
 
