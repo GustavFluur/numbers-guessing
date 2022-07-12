@@ -14,7 +14,10 @@ of the average-game. In 1981, Ledoux used this game as a tie breaker in his Fren
 
 # How to play
 
-In this game you have 5 chances to win and likewise no matter what result - you'll have options to either continue or to quit. The reason behind that feature is to create a sense of freedom for the user and preventing it for a sudden halt of its entertainment.  
+In this game you have 5 chances to win and likewise no matter what result - you'll have options to either continue or to quit. The reason behind that feature is to create a sense of freedom for the user and preventing it for a sudden halt of its entertainment. 
+
+## Updated gaming features:
+#### Since the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience. 
 
 Once you starting Number Guessing it says in the mock terminal:
 
@@ -31,9 +34,6 @@ This is an example on how it indicates you won in the game, and no matter what r
         Enter your guess 5: 25
         GREAT, YOU MADE IT ON THE SECOND TRY!
         Shuting down..
-
-## Updated gaming features:
-#### Since the last submission was reccieved with some critics it has now been updated by added new content and features into the game for making it more appealing for the user's experience.
 
 
         Try to guess the number (between 0 and 100) on five guesses!
