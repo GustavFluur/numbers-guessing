@@ -68,8 +68,11 @@ In the last message you either press "y" and "n" (in small letters). Therefore t
 
 ## Existing Features
 
-## Ex 1.   
-### As a summary from the previous section on how to play: you just follow the instructions from the terminal on what it says in game. Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you done something great - won over the computer e.g. on the second try. Since it's quite challenging to score it right in the span between  0 - 100. 
+  
+## This section we are going to walk through the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
+
+## Ex 1. 
+Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you done something great - won over the computer e.g. on the second try. Since it's quite challenging to score it right in the span between  0 - 100. 
 
         Try to guess the number (between 0 and 100) on five guesses!
         Enter your first guess: 50
