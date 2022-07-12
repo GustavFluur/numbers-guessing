@@ -29,12 +29,13 @@ What it does the player will be given instructions and a purpose for the user to
         Your guess is too high, please try again!
         Enter guess 3:
 
-This is an example on how it indicates you won in the game, and no matter what result you get eventually the game is always shots down:
+This is an example on how indicated in the previous version you won the game, and no matter what result you get eventually the game is always shots down:
 
         Enter your guess 5: 25
         GREAT, YOU MADE IT ON THE SECOND TRY!
         Shuting down..
 
+However, as it shows in the last message in the terminal the game was being shut down and you were unable to continue - that restriced the entertainment and a desire to look for previous results was prevented: 
 
         Try to guess the number (between 0 and 100) on five guesses!
         Enter guess 1: 80
@@ -52,8 +53,14 @@ This is an example on how it indicates you won in the game, and no matter what r
         y/n:
 
 
+In the last message you either press "y" and "n" (in small letters). Therefore the updated version was needed and creating a sense of gaming loop until the player to decides to finish or to carry on with the game.  
 
-
+        Wow, you scored on try 5! HOW DID YOU KNOW!?
+        Wanna try again?
+        please press either y - yes or n - no
+        y/n:y
+        Try to guess the number (between 0 and 100) on five guesses!
+        Enter guess 1: 
 
 
 # Features
