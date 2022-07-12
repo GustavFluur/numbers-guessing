@@ -1,7 +1,7 @@
 # Number Guessing 
-Number guessing is being run in a Python terminal game, which runs in the code institute mock terminal on Heroku.
+Number guessing is a Python terminal game, which runs in the code institute mock terminal on Heroku.
 
-Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest - and to highest, plus you only have five chances to finish the game. 
+Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest to highest, plus you only have five chances to finish the game. 
 
 ###### *Disclaimer: The project and its readme file has been recently updated - from June 10th 2022 to July 12th 2022. It has now been added new content and features into the game for making it more appealing for the user's experience. Due the last submission was reccieved with some critics over the codeblock's missing necessary characteristics has made Number Guessing optimized.   
 
