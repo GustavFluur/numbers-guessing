@@ -5,7 +5,7 @@ Once the user is interacting with the game for the first time, they will find th
 
 ###### *Disclaimer: The project and its readme file has been recently updated - from June 10th 2022 to July 12th 2022. It has now been added new content and features into the game for making it more appealing for the user's experience. Due the last submission was reccieved with some critics over the codeblock's missing necessary characteristics has made Number Guessing optimized.   
 
-[Here is the live version of the project to interact with - it will provide you a detail understanding on how the game operates. Enjoy!](https://numbers-guessing.herokuapp.com/)
+[Here is the live version of game to interact with - it will provide you a detail understanding on how the game operates. Please enjoy!](https://numbers-guessing.herokuapp.com/)
 
 ![Responsive image](/assets/images/Responsitive%20image.png)
 
