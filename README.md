@@ -72,18 +72,21 @@ In the last message you either press "y" and "n" (in small letters). Therefore t
 ## This section we are going to walk through the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
 
 ## Ex 1. 
-Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you've won over the computer e.g. on the fourth try after the player decided to continue the game. Since it's quite challenging to win over the computer with the right number in the span between  0 - 100 it generates a benefit for the player and by doing this it creates an encourgement to willing to carry on with the game. 
+#### Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you've won over the computer e.g. on the fourth try after the player decided to continue the game. Since it's quite challenging to win over the computer with the right number in the span between  0 - 100 it generates a benefit for the player and by doing this it creates an encourgement to willing to carry on with the game. 
 ![score](/assets/images/score.png)
 
 
 ## Ex2
-### What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication for the user to only write a number in the terminal and the rules of the game. Please look at the example below: 
+#### What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication directed to the participating player to only write a number and gives an understanding the rules of the game. Please look at the example below: 
 ![digits&numbermix](/assets/images/digits&numbermix.png)
+#### It dosen't matter how many times you are writing false inputs into the terminal - you still recieve the same answer: "Please enter a number!" and it wont hurt the outcome of the game. Thus you can carry it on without any issues. 
+![No numbers in the game](/assets/images/no-numbers.png)
+![No numbers in the game 2](/assets/images/no-numbers_continuegame.png)
 
 ## Ex 3
-### The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
+### A feature that has been shown in the previous examples are the button that says: "please press either y - yes or n - no" after the round is done. It gives an opportunity for the player to either continue or to leave the game. As well as wrong inputs while you suppose to type in numbers - the function works the same where nothing breaks as the player is typing it all wrong - just until you got it all right in the end. 
 
-![Failure after 5 chances](/assets/images/5%20tries%20-%20no%20win.png)
+![Fasle inputs into y-n button](/assets/images/y-n-wrong.png)
 
 # Future Feature
 
