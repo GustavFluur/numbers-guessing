@@ -77,9 +77,8 @@ Here in the first example you can tell the user won the game due to its feedback
 
 
 ## Ex2
-### This is example shows it looks like when you are on the edge of loosing the game, that you got a score after the fourth and fifth try:
-![4 tries - 1 score](/assets/images/4%20shots%20-%201%20score.png)
-![5 tries - 1 score](/assets/images/Score%20on%20the%20last%20try.png)
+### What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication for the user to only write a number in the terminal and the rules of the game. Please look at the example below: 
+![digits&numbermix](/assets/images/digits&numbermix.png)
 
 ## Ex 3
 ### The second example indicates an user's failure of the game and how it says in the end of it. What you need to do is to restart mock terminal to try again. 
