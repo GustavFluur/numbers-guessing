@@ -183,7 +183,10 @@ I want to thank my previous and current mentors on Code Institute, who guide me 
 - martina_mentor 
 
 # My failed Codeblock 
-### My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass my first project and therefore I came with this updated code block, which I hoped for a good result. Yet, it was a misstake because it had missing functions, bad inputs and not clear structured code block to follow understand what is going on within its system. That led I took action to contact my first mentor and my newest one for some further guidance. 
+### My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass this python based project and therefore I came with this updated code block after my second try, which I hoped for a good result. Yet, it was a misstake because it had still missing functions, bad inputs and not clear structured code to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me learning and some valuable insight to execute this task with better standards than the last two submissions. 
+
+### As some insight for some future and present coders this is how my updated codblock looked like after my second try and the reason I want to show you this is to learn my own misstakes. 
+
 ![My uppdated Codeblock](/assets/images/codeblock_prev.png)
 In the begnining of my codeblock it had severe missing elements that required and I didn't typed in since I was following an educational video on YouTube [Beginner Python Project: Number Guessing Game](https://www.youtube.com/watch?v=tKjL670MARY) and wanted to make the code simple as possible for handing in the project as fast I could. I should have paid more attention to the projects critera requirements instead of code along. It's imperative to understand what those are but it's absolutely fine to take inspiration from wherever you want. 
 
