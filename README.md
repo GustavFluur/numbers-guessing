@@ -116,18 +116,18 @@ I have manually tested this project by doing the following:
 
 ### Solved Bugs
 
-* No issues when it came to the coding and structure building of the python file, yet the only issue I encountered was some typing issues along with the development of the file. First, it’s hard to know what you want in the beginning and secondly, I got dyslexia, so missing out on some words or sentences is part of the process.  
+##### No issues when it came to the coding and structure building of the python file, yet the only issue I encountered was some typing issues along with the development of the file. First, it’s hard to know what you want in the beginning and secondly, I got dyslexia, so missing out on some words or sentences is part of the process.  
 
 # My failed Codeblock 
 
-#### My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass this python based project and therefore I came with this updated code block after my second try, which I hoped for a good result. 
+###### My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass this python based project and therefore I came with this updated code block after my second try, which I hoped for a good result. 
 
-#### Yet, it was another misstake because it had still missing functions, bad inputs and not clear structured code to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me the learnings and some valuable insight to execute this task with better standards than the last two submissions. 
+###### Yet, it was another misstake because it had still missing functions, bad inputs and not clear structured code to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me the learnings and some valuable insight to execute this task with better standards than the last two submissions. 
 
-### For future and present coders this is how my updated code block looked like after my second submission and the reason I want to show you this is to learn by my own misstakes. To prevent a verbose readme file - please check the image here with the current python code (run.py) what changes have made:  
+###### For future and present coders this is how my updated code block looked like after my second submission and the reason I want to show you this is to learn by my own misstakes. To prevent a verbose readme file - please check the image here with the current python code (run.py) what changes have made:  
 ![My uppdated Codeblock](/assets/images/codeblock_prev.png)
 
-In the begnining of my codeblock it had severe missing elements that required and I didn't typed in since I was following an educational video on YouTube [Beginner Python Project: Number Guessing Game](https://www.youtube.com/watch?v=tKjL670MARY) and wanted to make the code simple as possible for handing in the project as fast I could. I should have paid more attention to the projects critera requirements instead of code along. It's imperative to understand what those are but it's absolutely fine to take inspiration from wherever you want. 
+###### In the begnining of my codeblock it had severe missing elements that required and I didn't typed in since I was following an educational video on YouTube [Beginner Python Project: Number Guessing Game](https://www.youtube.com/watch?v=tKjL670MARY) and wanted to make the code simple as possible for handing in the project as fast I could. I should have paid more attention to the projects critera requirements instead of code along. It's imperative to understand what those are but it's absolutely fine to take inspiration from wherever you want. 
 
 
 # Validator Testing 
