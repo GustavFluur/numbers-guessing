@@ -72,16 +72,9 @@ In the last message you either press "y" and "n" (in small letters). Therefore t
 ## This section we are going to walk through the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
 
 ## Ex 1. 
-Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you done something great - won over the computer e.g. on the second try. Since it's quite challenging to score it right in the span between  0 - 100. 
+Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you've won over the computer e.g. on the fourth try after the player decided to continue the game. Since it's quite challenging to win over the computer with the right number in the span between  0 - 100 it generates a benefit for the player and by doing this it creates an encourgement to willing to carry on with the game. 
+![score](/assets/images/score.png)
 
-        Try to guess the number (between 0 and 100) on five guesses!
-        Enter your first guess: 50
-        Your guess is too high, please try again!
-        Enter your second guess: 25
-        GREAT, YOU MADE IT ON THE SECOND TRY!
-        Shuting down..
-
-### *** Disclaimer: I forgot to add the first image of the winning example, and other ones were created right after, this will be added in the short future, thank you for your understanding***
 
 ## Ex2
 ### This is example shows it looks like when you are on the edge of loosing the game, that you got a score after the fourth and fifth try:
