@@ -85,8 +85,11 @@ In the last message you either press "y" and "n" (in small letters). Therefore t
 
 ## Ex 3
 ### A feature that has been shown in the previous examples are the button that says: "please press either y - yes or n - no" after the round is done. It gives an opportunity for the player to either continue or to leave the game. As well as wrong inputs while you suppose to type in numbers - the function works the same where nothing breaks as the player is typing it all wrong - just until you got it all right in the end. 
-
 ![Fasle inputs into y-n button](/assets/images/y-n-wrong.png)
+
+## Ex 4
+### The final example. How does it look once you desire to finish the game or to press "n"? As you do you are unable to continue and system will make you exit the terminal. Thus it indicates you will no longer be able to play Number Guessing at this time and likewise it communicates well for the player to realize that the game is now finish - if you want to restart then you need to refresh the page on the Python Terminal by Code Institute. 
+![Goodbye!](/assets/images/goodbye.png)
 
 # Future Feature
 
