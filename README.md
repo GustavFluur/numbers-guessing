@@ -69,26 +69,26 @@ In the last message you either press "y" and "n" (in small letters). Therefore t
 ## Existing Features
 
   
-## This section we are going to walk through the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
+##### This section we are going to walk through the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
 
 ## Ex 1. 
-#### Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you've won over the computer e.g. on the fourth try after the player decided to continue the game. Since it's quite challenging to win over the computer with the right number in the span between  0 - 100 it generates a benefit for the player and by doing this it creates an encourgement to willing to carry on with the game. 
+##### Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you've won over the computer e.g. on the fourth try after the player decided to continue the game. Since it's quite challenging to win over the computer with the right number in the span between  0 - 100 it generates a benefit for the player and by doing this it creates an encourgement to willing to carry on with the game. 
 ![score](/assets/images/score.png)
 
 
 ## Ex2
-#### What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication directed to the participating player to only write a number and gives an understanding the rules of the game. Please look at the example below: 
+##### What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication directed to the participating player to only write a number and gives an understanding the rules of the game. Please look at the example below: 
 ![digits&numbermix](/assets/images/digits&numbermix.png)
-#### It dosen't matter how many times you are writing false inputs into the terminal - you still recieve the same answer: "Please enter a number!" and it wont hurt the outcome of the game. Thus you can carry it on without any issues. 
+##### It dosen't matter how many times you are writing false inputs into the terminal - you still recieve the same answer: "Please enter a number!" and it wont hurt the outcome of the game. Thus you can carry it on without any issues. 
 ![No numbers in the game](/assets/images/no-numbers.png)
 ![No numbers in the game 2](/assets/images/no-numbers_continuegame.png)
 
 ## Ex 3
-### A feature that has been shown in the previous examples are the button that says: "please press either y - yes or n - no" after the round is done. It gives an opportunity for the player to either continue or to leave the game. As well as wrong inputs while you suppose to type in numbers - the function works the same where nothing breaks as the player is typing it all wrong - just until you got it all right in the end. 
+##### A feature that has been shown in the previous examples are the button that says: "please press either y - yes or n - no" after the round is done. It gives an opportunity for the player to either continue or to leave the game. As well as wrong inputs while you suppose to type in numbers - the function works the same where nothing breaks as the player is typing it all wrong - just until you got it all right in the end. 
 ![Fasle inputs into y-n button](/assets/images/y-n-wrong.png)
 
 ## Ex 4
-### The final example. How does it look once you desire to finish the game or to press "n"? As you do you are unable to continue and system will make you exit the terminal. Thus it indicates you will no longer be able to play Number Guessing at this time and likewise it communicates well for the player to realize that the game is now finish - if you want to restart then you need to refresh the page on the Python Terminal by Code Institute. 
+##### The final example. How does it look once you desire to finish the game or to press "n"? As you do you are unable to continue and system will make you exit the terminal. Thus it indicates you will no longer be able to play Number Guessing at this time and likewise it communicates well for the player to realize that the game is now finish - if you want to restart then you need to refresh the page on the Python Terminal by Code Institute. 
 ![Goodbye!](/assets/images/goodbye.png)
 
 # Future Feature
@@ -122,7 +122,7 @@ I have manually tested this project by doing the following:
 
 ###### My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass this python based project and therefore I came with this updated code block after my second try, which I hoped for a good result. 
 
-###### Yet, it was another misstake because it had still missing functions, bad inputs and not clear structured code to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me the learnings and some valuable insight to execute this task with better standards than the last two submissions. 
+###### Yet, it was another misstake because it had still missing functions, bad inputs and not clear structured code etc. to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me the learnings and some valuable insight to execute this task with better standards than the last two submissions. 
 
 ###### For future and present coders this is how my updated code block looked like after my second submission and the reason I want to show you this is to learn by my own misstakes. To prevent a verbose readme file - please check the image here with the current python code (run.py) what changes have made:  
 ![My uppdated Codeblock](/assets/images/codeblock_prev.png)
