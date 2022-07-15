@@ -1,18 +1,19 @@
 # Number Guessing 
 Number guessing is a Python terminal game, which runs in the code institute mock terminal on Heroku.
 
-Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest to highest, plus you only have five chances to finish the game. 
+Once the user is interacting with the game for the first time, they will find the introduction to be clear and concise. In short, you must choose a number between a span from the lowest to highest, plus you only have five chances to finish the game.
+[Here is a live version of Number Gussing to interact with - Please enjoy!](https://numbers-guessing.herokuapp.com/)
+<br>
 
-###### *Disclaimer: The project and its readme file has been recently updated - from June 10th 2022 to July 12th 2022. It has now been added new content and features into the game for making it more appealing for the user's experience. Due the last submission was reccieved with some critics over the codeblock's missing necessary characteristics has made Number Guessing optimized.   
+#### * Disclaimer: The project and its readme file has been updated - from June 10th 2022 to July 15th 2022. It has now been added new content and features into the game for making it more appealing for the user's experience. Due the last submission was reccieved with some critics over the codeblock's missing necessary characteristics has made Number Guessing optimized.   
 
-[Here is the live version of game to interact with - it will provide you a detail understanding on how the game operates. Please enjoy!](https://numbers-guessing.herokuapp.com/)
 
 ![Responsive image](/assets/images/Responsitive%20image.png)
 
 # Background 
 
 Number guessing is game where the players simultaneously select an integer between between two numbers. In that span you must choose one per try, hence to figure out what number the computer has selected or hiding from the user. According to [wikipedia](https://en.wikipedia.org/wiki/Guess_2/3_of_the_average): Alain Ledoux is the founding father of the guess 
-of the average-game. In 1981, Ledoux used this game as a tie breaker in his French magazine Jeux et Stratégie. He asked about 4,000 readers, who reached the same number of points in previous puzzles, to state an integer between 1 and 1,000,000,000. The winner was the one who guessed closest to of the average guess.
+of the average-game. In 1981, Ledoux used this game as a tie breaker in his French magazine Jeux et Stratégie. He asked about 4,000 readers, who reached the same number of points in previous puzzles, to state an integer between 1 and 1,000,000,000. The winner was the one who guessed closest to the average guess.
 
 # How to play
 
@@ -20,7 +21,7 @@ In this game you have 5 chances to win and likewise no matter what result - you'
 
 ## Updated gaming features: 
 
-Once you starting the Number Guessing game it still says in the mock terminal:
+No changes has been made regarding the features of the game's presentation to the player. Once you starting the Number Guessing it still says in the mock terminal:
 
        Try to guess the number (between 0 and 100) on five guesses!
         Enter guess 1: 
@@ -30,13 +31,13 @@ What it does the player will be given instructions and a purpose for the user to
         Your guess is too high, please try again!
         Enter guess 3:
 
-This is an example on how indicated in the previous version you won the game, and no matter what result you get eventually the game is always shots down:
+This is an example on how indicated in the previous version you won the game and it created a standstill for the player willing to continue:
 
         Enter your guess 5: 25
         GREAT, YOU MADE IT ON THE SECOND TRY!
         Shuting down..
 
-However, as it shows in the last message in the terminal the game was being shut down and you were unable to continue - that restriced the entertainment and a desire to look for previous results was prevented: 
+However, that restriced the player's thrill, enjoyment and a desire to look for previous results was prevented for the user's benefit:  
 
         Try to guess the number (between 0 and 100) on five guesses!
         Enter guess 1: 80
@@ -54,8 +55,9 @@ However, as it shows in the last message in the terminal the game was being shut
         y/n:
 
 
-In the last message you either press "y" and "n" (in small letters). Therefore the updated version was needed and creating a sense of gaming loop until the player to decides to finish or to carry on with the game.  
+The player choose if he either wants to press "y" or "n" (in small letters) to independently carry on with the game. Therefore the updated version was required and likewise creating a sense of gaming loop. You can decide as long as you like to play the game until you decides to finish it by pressing "n" - as it being portayed below: 
 
+        Ex 1.
         Wow, you scored on try 5! HOW DID YOU KNOW!?
         Wanna try again?
         please press either y - yes or n - no
@@ -63,33 +65,59 @@ In the last message you either press "y" and "n" (in small letters). Therefore t
         Try to guess the number (between 0 and 100) on five guesses!
         Enter guess 1: 
 
+        Ex 2.
+        Enter guess 5: 30
+        Your guess is too high, please try again!
+        You lost the game....
+        Wanna try again?
+        please press either y - yes or n - no
+        y/n:n
+        Goodbye!
+        Shutting down
+ 
+
 
 # Features
 
-## Existing Features
-
+# Existing Features
   
-##### This section we are going to walk through the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
+#### This section we are going to walk through in detail the processes and features of the game. What the user is experiencing and encounter step by step. For making it clear and explicit we are going to use the random examples that is being portayed in the game and the mock terminal on Heruko.  
+<br>
 
 ## Ex 1. 
-##### Here in the first example you can tell the user won the game due to its feedback after its performance, as it shows here - it shows uppercase letters to highlight for the user that you've won over the computer e.g. on the fourth try after the player decided to continue the game. Since it's quite challenging to win over the computer with the right number in the span between  0 - 100 it generates a benefit for the player and by doing this it creates an encourgement to willing to carry on with the game. 
+ Here in the first example, you can tell the user eventually succeeded to beat the computer on the second round by clicking on the “y” button. With its feedback to use uppercase letters to truly highlight the player's achievement on the fourth guessing number - it generates a sense of accomplishment for the player and a feeling of satisfaction.  Since it's quite challenging to win against the computer with the right input of a span between 0 to 100 it creates an encouragement to be willing to continue or finish the game. 
+<br>
+
 ![score](/assets/images/score.png)
 
 
 ## Ex2
-##### What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication directed to the participating player to only write a number and gives an understanding the rules of the game. Please look at the example below: 
+What happens if you type a letter or something else into the terminal that shouldn't be there? Well, the game is sending a message back to the user : "Please enter a number!". It's a simple communication directed to the participating player to only write a numbers and gives an understanding of the rules of the game. You can write as many misstakes as you want without any effects on your results - it is absolutely up to the player until they decides to write numbers instead:
+<br>
+
 ![digits&numbermix](/assets/images/digits&numbermix.png)
-##### It dosen't matter how many times you are writing false inputs into the terminal - you still recieve the same answer: "Please enter a number!" and it wont hurt the outcome of the game. Thus you can carry it on without any issues. 
+As mentioned it dosen't matter how many times you are writing false inputs into the terminal - you still recieve the same answer: "Please enter a number!".
+<br>
+
 ![No numbers in the game](/assets/images/no-numbers.png)
+
+In the image below - You can tell that the player changed his mind and wanted to write numbers instead of irrelevant symbols and letters into the terminal. Thus the game operates as usual again without any constraints:
+
 ![No numbers in the game 2](/assets/images/no-numbers_continuegame.png)
 
 ## Ex 3
-##### A feature that has been shown in the previous examples are the button that says: "please press either y - yes or n - no" after the round is done. It gives an opportunity for the player to either continue or to leave the game. As well as wrong inputs while you suppose to type in numbers - the function works the same where nothing breaks as the player is typing it all wrong - just until you got it all right in the end. 
+A feature that has been shown in the previous examples are the button that says: "please press either y - yes or n - no" after the round is done. It gives an opportunity for the player to either continue or to leave the game. As well as wrong inputs while you suppose to type in numbers - the function works the same where nothing breaks as the player is typing it all wrong - just until you got it all right in the end. 
+<br>
+
 ![Fasle inputs into y-n button](/assets/images/y-n-wrong.png)
 
 ## Ex 4
-##### The final example. How does it look once you desire to finish the game or to press "n"? As you do you are unable to continue and system will make you exit the terminal. Thus it indicates you will no longer be able to play Number Guessing at this time and likewise it communicates well for the player to realize that the game is now finish - if you want to restart then you need to refresh the page on the Python Terminal by Code Institute. 
+The final example. How does it look once you desire to finish the game or to press "n"? As you do you are unable to continue and system will make you exit the terminal. Thus it indicates you will no longer be able to play Number Guessing at this time and likewise it communicates well for the player to realize that the game is now finish - if you want to restart then you need to refresh the page on the Python Terminal by Code Institute. 
+<br>
+
 ![Goodbye!](/assets/images/goodbye.png)
+
+
 
 # Future Feature
 
@@ -118,17 +146,20 @@ I have manually tested this project by doing the following:
 
 ##### No issues when it came to the coding and structure building of the python file, yet the only issue I encountered was some typing issues along with the development of the file. First, it’s hard to know what you want in the beginning and secondly, I got dyslexia, so missing out on some words or sentences is part of the process.  
 
-# My failed Codeblock 
+<br>
 
-###### My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass this python based project and therefore I came with this updated code block after my second try, which I hoped for a good result. 
+# First Submission attempt
 
-###### Yet, it was another misstake because it had still missing functions, bad inputs and not clear structured code etc. to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me the learnings and some valuable insight to execute this task with better standards than the last two submissions. 
+My first submission was conducted in a fast pace and that led to missing valuable functions that was required to pass this python based project and therefore I came with this updated code block after my second try, which I hoped for a good result. 
 
-###### For future and present coders this is how my updated code block looked like after my second submission and the reason I want to show you this is to learn by my own misstakes. To prevent a verbose readme file - please check the image here with the current python code (run.py) what changes have made:  
+Yet, it was another misstake because it had still missing functions, bad inputs and not clear structured code etc. to fully understand what is going on within its system. That led to I took action to contact my mentors for some extra guidance and support. That gave me the learnings and some valuable insight to execute this task with better standards than the last two submissions. 
+
+For future and present coders this is how my updated code block looked like after my second submission and the reason I want to show you this is to learn by my own misstakes. To prevent a verbose readme file - please check the image here with the current python code (run.py) what changes have made:  
 ![My uppdated Codeblock](/assets/images/codeblock_prev.png)
 
-###### In the begnining of my codeblock it had severe missing elements that required and I didn't typed in since I was following an educational video on YouTube [Beginner Python Project: Number Guessing Game](https://www.youtube.com/watch?v=tKjL670MARY) and wanted to make the code simple as possible for handing in the project as fast I could. I should have paid more attention to the projects critera requirements instead of code along. It's imperative to understand what those are but it's absolutely fine to take inspiration from wherever you want. 
+In the begnining of my codeblock it had severe missing elements that required and I didn't typed in since I was following an educational video on YouTube [Beginner Python Project: Number Guessing Game](https://www.youtube.com/watch?v=tKjL670MARY) and wanted to make the code simple as possible for handing in the project as fast I could. I should have paid more attention to the projects critera requirements instead of code along. It's imperative to understand what those are but it's absolutely fine to take inspiration from wherever you want. 
 
+<br>
 
 # Validator Testing 
 
