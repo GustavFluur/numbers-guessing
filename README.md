@@ -5,7 +5,7 @@ Once the user is interacting with the game for the first time, they will find th
 [Here is a live version of Number Gussing to interact with - Please enjoy!](https://numbers-guessing.herokuapp.com/)
 <br>
 
-#### * Disclaimer: The project and its readme file has been updated - from June 10th 2022 to July 15th 2022. It has now been added new content and features into the game for making it more appealing for the user's experience. Due the last submission was reccieved with some critics over the codeblock's missing necessary characteristics has made Number Guessing optimized.   
+##### * Disclaimer: The project and its readme file has been updated - from June 10th 2022 to July 15th 2022. It has now been added new content and features into the game for making it more appealing for the user's experience. Due the last submission was reccieved with some critics over the codeblock's missing necessary characteristics has made Number Guessing optimized.   
 
 
 ![Responsive image](/assets/images/Responsitive%20image.png)
